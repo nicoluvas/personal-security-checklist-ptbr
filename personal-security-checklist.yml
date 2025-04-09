@@ -10,7 +10,7 @@
     autenticação de 2 fatores, fique por dentro das violações e tome cuidado ao fazer login em suas contas.
   checklist:
   - point: Use uma Senha Forte
-    priority: Essencial
+    priority: Essential
     details: >-
       Se sua senha for muito curta ou contiver palavras do dicionário, lugares ou nomes, ela poderá ser facilmente
       quebrada por força bruta ou adivinhada por alguém. A maneira mais fácil de criar uma senha forte é
@@ -21,7 +21,7 @@
       [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
 
   - point: Não reutilize senhas
-    priority: Essencial
+    priority: Essential
     details: >-
       Se alguém reutilizasse uma senha e um site em que tivesse uma conta sofresse um vazamento, então um
       criminoso poderia facilmente obter acesso não autorizado às suas outras contas. Isso geralmente é feito através de
@@ -29,7 +29,7 @@
       comum, mas é simples de se proteger - use uma senha diferente para cada uma de suas contas online
 
   - point: Use um Gerenciador de Senhas Seguro
-    priority: Essencial
+    priority: Essential
     details: >-
       Para a maioria das pessoas, será quase impossível lembrar centenas de senhas fortes e exclusivas.
       Um gerenciador de senhas é um aplicativo que gera, armazena e preenche automaticamente suas credenciais de login para você.
@@ -40,7 +40,7 @@
       [Gerenciadores de Senhas Recomendados](https://bitwarden.com)
 
   - point: Evite compartilhar senhas
-    priority: Essencial
+    priority: Essential
     details: >-
       Embora possa haver momentos em que você precise compartilhar o acesso a uma conta com outra pessoa, você deve
       geralmente evitar fazer isso porque torna mais fácil para a conta ser comprometida. Se você
@@ -48,7 +48,7 @@
       deve ser feito por meio de recursos integrados a um gerenciador de senhas.
 
   - point: Habilite a Autenticação de 2 Fatores
-    priority: Essencial
+    priority: Essential
     details: >-
       2FA é onde você deve fornecer algo que você sabe (uma senha) e algo que você tem (como um
       código em seu telefone) para fazer login. Isso significa que se alguém tiver sua senha (por exemplo, por meio de phishing,
@@ -59,7 +59,7 @@
       (funciona sem internet e o código geralmente muda a cada 30 segundos)
 
   - point: Mantenha os Códigos de Backup Seguros
-    priority: Essencial
+    priority: Essential
     details: >-
       Quando você habilita a autenticação multifator, geralmente recebe vários códigos que pode usar se
       seu método 2FA for perdido, quebrado ou indisponível. Mantenha esses códigos em um lugar seguro para evitar perdas ou
@@ -68,7 +68,7 @@
       devem ser mantidas separadamente.
 
   - point: Inscreva-se para Alertas de Violação
-    priority: Opcional
+    priority: Optional
     details: >-
       Depois que um site sofre uma violação de dados significativa, os dados vazados geralmente acabam na internet. Lá
       existem vários sites que coletam esses registros vazados e permitem que você pesquise seu endereço de e-mail para verificar
@@ -80,14 +80,14 @@
       você usa aliases para encaminhamento anônimo de e-mail).
 
   - point: Proteja sua Senha/PIN
-    priority: Opcional
+    priority: Optional
     details: >-
       Ao digitar sua senha em locais públicos, certifique-se de que você não está na linha de visão direta de uma câmera de CFTV e
       que ninguém seja capaz de ver por cima do seu ombro. Cubra sua senha ou código PIN enquanto digita e não
       revele nenhuma senha de texto simples na tela
 
   - point: Atualize as Senhas Críticas Periodicamente
-    priority: Opcional
+    priority: Optional
     details: >-
       Vazamentos e violações de banco de dados são comuns, e é provável que várias de suas senhas já estejam em algum lugar
       online. Atualizar ocasionalmente as senhas de contas críticas para a segurança pode ajudar a mitigar isso. Mas fornecendo
@@ -96,14 +96,14 @@
       pois incentiva os colegas a selecionar senhas mais fracas
 
   - point: Não salve sua senha nos navegadores
-    priority: Opcional
+    priority: Optional
     details: >-
       A maioria dos navegadores modernos oferece para salvar suas credenciais quando você faz login em um site. Não permita isso, pois eles
       nem sempre são criptografados, portanto, podem permitir que alguém ganhe acesso às suas contas. Em vez disso, use um dedicado
       gerenciador de senhas para armazenar (e preencher automaticamente) suas senhas
 
   - point: Evite fazer login no dispositivo de outra pessoa
-    priority: Opcional
+    priority: Optional
     details: >-
       Evite fazer login no computador de outras pessoas, pois você não pode ter certeza de que o sistema deles está limpo. Seja especialmente cauteloso
       de máquinas públicas, pois malware e rastreamento são mais comuns aqui. Usar o dispositivo de outra pessoa é especialmente
@@ -112,13 +112,13 @@
       cookies e histórico de navegação.
 
   - point: Evite dicas de senha
-    priority: Opcional
+    priority: Optional
     details: >-
       Alguns sites permitem que você defina dicas de senha. Muitas vezes é muito fácil adivinhar as respostas. Nos casos em que dicas de senha
       são obrigatórias, use respostas aleatórias e registre-as no gerenciador de senhas (`Nome da primeira escola: 6D-02-8B-!a-E8-8F-81`)
 
   - point: Nunca responda a perguntas de segurança online com sinceridade
-    priority: Opcional
+    priority: Optional
     details: >-
       Se um site fizer perguntas de segurança (como local de nascimento, nome de solteira da mãe ou primeiro carro, etc.), não forneça
       respostas reais. É uma tarefa trivial para os hackers descobrir essas informações online ou por meio de engenharia social.
@@ -126,14 +126,14 @@
       caracteres aleatórios, [explicado aqui](https://news.ycombinator.com/item?id=29244870)
 
   - point: Não use um PIN de 4 dígitos
-    priority: Opcional
+    priority: Optional
     details: >-
       Não use um PIN curto para acessar seu smartphone ou computador. Em vez disso, use uma senha de texto ou um PIN muito mais longo.
       Frases secretas numéricas são fáceis de quebrar (um PIN de 4 dígitos tem 10.000 combinações, em comparação com 7,4 milhões para um
       código alfanumérico de 4 caracteres)
 
   - point: Evite usar SMS para 2FA
-    priority: Opcional
+    priority: Optional
     details: >-
       Ao habilitar a autenticação multifator, opte por códigos baseados em aplicativo ou um token de hardware, se compatível. SMS é
       suscetível a uma série de ameaças comuns, como [troca de SIM](https://www.maketecheasier.com/sim-card-hijacking)
@@ -143,14 +143,14 @@
       comprar um segundo número de telefone pré-pago usado apenas para recuperação de conta para essas instâncias.
 
   - point: Evite usar seu PM para gerar OTPs
-    priority: Avançado
+    priority: Advanced
     details: >-
       Muitos gerenciadores de senhas também são capazes de gerar códigos 2FA. É melhor não usar seu gerenciador de senhas primário
       como seu autenticador 2FA também, pois se tornaria um único ponto de falha se comprometido. Em vez disso, use um
       aplicativo autenticador dedicado em seu telefone ou laptop
 
   - point: Evite o Desbloqueio Facial
-    priority: Avançado
+    priority: Advanced
     details: >-
       A maioria dos telefones e laptops oferece um recurso de autenticação de reconhecimento facial, usando a câmera para comparar um instantâneo
       do seu rosto com um hash armazenado. Pode ser muito conveniente, mas existem inúmeras maneiras de [enganá-lo](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/)
@@ -158,7 +158,7 @@
       provavelmente existem fotos do seu rosto na internet e vídeos gravados por câmeras de vigilância
 
   - point: Cuidado com os Keyloggers
-    priority: Avançado
+    priority: Advanced
     details: >-
       Um [keylogger](https://en.wikipedia.org/wiki/Hardware_keylogger) de hardware é um dispositivo físico plantado entre
       seu teclado e a porta USB, que intercepta todas as teclas e, às vezes, retransmite dados para um servidor remoto.
@@ -169,7 +169,7 @@
       o gerenciador não pode ser interceptado por um keylogger de hardware.
 
   - point: Considere um Token de Hardware
-    priority: Avançado
+    priority: Advanced
     details: >-
       Uma chave de segurança U2F/FIDO2 é um dispositivo USB (ou NFC) que você insere ao fazer login em um serviço online, para
       verificar sua identidade, em vez de inserir um OTP do seu autenticador. [SoloKey](https://solokeys.com) e
@@ -180,7 +180,7 @@
       em algum lugar seguro ou mantê-la com você. Algumas contas online permitem que vários métodos de 2FA sejam habilitados
 
   - point: Considere o Gerenciador de Senhas Offline
-    priority: Avançado
+    priority: Advanced
     details: >-
       Para maior segurança, um gerenciador de senhas offline criptografado lhe dará controle total sobre seus dados.
       [KeePass](https://keepass.info) é uma escolha popular, com muitos [plugins](https://keepass.info/plugins.html) e
@@ -190,7 +190,7 @@
       e armazene-o com segurança
 
   - point: Considere Nomes de Usuário Exclusivos
-    priority: Avançado
+    priority: Advanced
     details: >-
       Ter senhas diferentes para cada conta é um bom primeiro passo, mas se você também usar um nome de usuário, e-mail ou
       número de telefone para fazer login, então será significativamente mais difícil para qualquer pessoa tentar obter acesso não autorizado. O mais fácil
@@ -225,7 +225,7 @@
     minimizar o rastreamento online e melhorar a privacidade.
   checklist:
   - point: Bloquear Anúncios
-    priority: Essencial
+    priority: Essential
     details: >-
       Usar um bloqueador de anúncios pode ajudar a melhorar sua privacidade, bloqueando os rastreadores que os anúncios implementam.
       [uBlock Origin](https://github.com/gorhill/uBlock) é um
@@ -236,7 +236,7 @@
       carregam mais rápido, usam menos dados e proporcionam uma experiência menos confusa.
 
   - point: Certifique-se de que o site é legítimo
-    priority: Básico
+    priority: Essential
     details: >-
       Pode parecer óbvio, mas ao fazer login em qualquer conta online, verifique se o URL está correto.
       Armazenar sites visitados com frequência em seus favoritos é uma boa maneira de garantir que o URL seja fácil de encontrar. Quando
@@ -247,7 +247,7 @@
       se você não tiver certeza.
 
   - point: Cuidado com Malware no Navegador
-    priority: Básico
+    priority: Essential
     details: >-
       Seu sistema ou navegador pode ser comprometido por spyware, miners, sequestradores de navegador, redirecionamentos maliciosos,
       adware etc. Você geralmente pode ficar protegido, apenas: ignorando pop-ups, tenha cuidado com o que você está clicando,
@@ -259,7 +259,7 @@
       e [como remover malware do navegador](https://heimdalsecurity.com/blog/malware-removal).
 
   - point: Use um Navegador que Respeite a Privacidade
-    priority: Essencial
+    priority: Essential
     details: >-
       [Firefox](https://www.mozilla.org/firefox) (com alguns ajustes)
       e [Brave](https://brave.com)
@@ -271,7 +271,7 @@
       configs user.js.
 
   - point: Use um Mecanismo de Busca Privado
-    priority: Essencial
+    priority: Essential
     details: >-
       Usar um mecanismo de pesquisa que preserva a privacidade e não rastreia reduzirá o risco de que seus termos de pesquisa não sejam
       registrados ou usados contra você. Considere [DuckDuckGo](https://duckduckgo.com),
@@ -283,7 +283,7 @@
       para um mecanismo de pesquisa que respeite a privacidade.
 
   - point: Remova Extensões Desnecessárias do Navegador
-    priority: Essencial
+    priority: Essential
     details: >-
       Extensões podem ver, registrar ou modificar tudo o que você faz no navegador, e alguns aplicativos de
       navegador de aparência inocente têm intenções maliciosas. Sites podem ver quais extensões você tem
@@ -294,7 +294,7 @@
       e remova aquelas que você não usa há algum tempo.
 
   - point: Mantenha o Navegador Atualizado
-    priority: Essencial
+    priority: Essential
     details: >-
       Vulnerabilidades do navegador estão constantemente sendo
       [descobertas](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser) e corrigidas, por isso é importante
@@ -304,7 +304,7 @@
       versão estável mais recente.
 
   - point: Verifique se há HTTPS
-    priority: Essencial
+    priority: Essential
     details: >-
       Se você inserir informações em um site não HTTPS, esses dados serão transportados não criptografados e,
       portanto, podem ser lidos por qualquer pessoa que os intercepte. Não insira nenhum dado em um site não
@@ -318,7 +318,7 @@
       habilitar suas proteções seguras HTTPS.
 
   - point: Use DNS sobre HTTPS
-    priority: Essencial
+    priority: Essential
     details: >-
       O DNS tradicional faz solicitações em texto simples para que todos vejam. Ele permite a escuta e a
       manipulação de dados DNS por meio de ataques man-in-the-middle. Enquanto o DNS sobre HTTPS realiza a
@@ -329,7 +329,7 @@
       impedindo a filtragem da web.
 
   - point: Multi-[Session](https://support.mozilla.org/en-US/kb/containers) Containers
-    priority: Essencial
+    priority: Essential
     details: >-
       A compartimentalização é realmente importante para manter diferentes aspectos de sua navegação separados.
       Por exemplo, usar perfis diferentes para trabalho, navegação geral, mídia social, compras online, etc.,
@@ -341,28 +341,28 @@
       [Tor](https://www.torproject.org) etc.).
 
   - point: Use o Modo Anônimo
-    priority: Essencial
+    priority: Essential
     details: >-
       Ao usar a máquina de outra pessoa, certifique-se de que você está em uma sessão privada/anônima. Isso
       impedirá que o histórico do navegador, cookies e alguns dados sejam salvos, mas não é à prova de falhas -
       você ainda pode ser rastreado.
 
   - point: Entenda sua Impressão Digital do Navegador
-    priority: Essencial
+    priority: Essential
     details: >-
       A impressão digital do navegador é um método incrivelmente preciso de rastreamento, onde um site o
       identifica com base nas informações do seu dispositivo. Você pode visualizar sua impressão digital em
       amiunique.org - O objetivo é ser o menos único possível.
 
   - point: Gerenciar Cookies
-    priority: Essencial
+    priority: Essential
     details: >-
       Limpar os cookies regularmente é uma medida que você pode tomar para ajudar a impedir que os sites o
       rastreiem. Os cookies também podem armazenar seu token de sessão, que, se capturado, permitiria que alguém
       acessasse suas contas sem credenciais. Para mitigar isso, você deve limpar os cookies com frequência.
 
   - point: Bloquear Cookies de Terceiros
-    priority: Essencial
+    priority: Essential
     details: >-
       Cookies de terceiros colocados em seu dispositivo por um site diferente daquele que você está visitando.
       Isso representa um risco à privacidade, pois uma terceira entidade pode coletar dados de sua sessão atual.
@@ -370,7 +370,7 @@
       isso funcionou.
 
   - point: Bloquear Rastreadores de Terceiros
-    priority: Essencial
+    priority: Essential
     details: >-
       Bloquear rastreadores ajudará a impedir que sites, anunciantes, análises e muito mais rastreiem você em
       segundo plano. [Privacy Badger](https://privacybadger.org),
@@ -380,7 +380,7 @@
       navegadores.
 
   - point: Cuidado com Redirecionamentos
-    priority: Opcional
+    priority: Optional
     details: >-
       Embora alguns redirecionamentos sejam inofensivos, outros, como redirecionamentos não validados, são usados
       em ataques de phishing, pode fazer com que um link malicioso pareça legítimo. Se você não tiver certeza
@@ -388,21 +388,21 @@
       RedirectDetective.
 
   - point: Não Faça Login no Seu Navegador
-    priority: Opcional
+    priority: Optional
     details: >-
       Muitos navegadores permitem que você faça login para sincronizar histórico, favoritos e outros dados de
       navegação entre dispositivos. No entanto, isso não apenas permite uma maior coleta de dados, mas também
       aumenta a superfície de ataque, fornecendo outra via para um ator malicioso obter informações pessoais.
 
   - point: Desativar Serviços de Predição
-    priority: Opcional
+    priority: Optional
     details: >-
       Alguns navegadores permitem serviços de previsão, onde você recebe resultados de pesquisa em tempo real ou
       preenchimento automático de URL. Se isso estiver habilitado, os dados serão enviados para o Google (ou seu
       mecanismo de pesquisa padrão) a cada pressionamento de tecla, em vez de quando você pressiona Enter.
 
   - point: Evite o G Translate para Páginas da Web
-    priority: Opcional
+    priority: Optional
     details: >-
       Quando você visita uma página da web escrita em um idioma estrangeiro, você pode ser solicitado a instalar a
       extensão do Google Translate. Esteja ciente de que o Google coleta todos os dados (incluindo campos de
@@ -410,120 +410,120 @@
       vinculado ao seu navegador.
 
   - point: Desativar Notificações da Web
-    priority: Opcional
+    priority: Optional
     details: >-
       As notificações push do navegador são um método comum para os criminosos incentivarem você a clicar no link
       deles, pois é fácil falsificar a fonte. Esteja ciente disso e, para obter instruções sobre como desativar as
       notificações do navegador, consulte este artigo.
 
   - point: Desativar Downloads Automáticos
-    priority: Opcional
+    priority: Optional
     details: >-
       Downloads drive-by são um método comum de colocar arquivos prejudiciais no dispositivo de um usuário. Isso
       pode ser mitigado desativando os downloads automáticos de arquivos e sendo cauteloso com sites que solicitam
       que você baixe arquivos inesperadamente.
 
   - point: Desativar Acesso a Sensores
-    priority: Opcional
+    priority: Optional
     details: >-
       Sites móveis podem acessar os sensores do seu dispositivo sem perguntar. Se você conceder essas permissões
       ao seu navegador uma vez, todos os sites poderão usar esses recursos, sem permissão ou notificação.
 
   - point: Desativar Localização
-    priority: Opcional
+    priority: Optional
     details: >-
       Os Serviços de Localização permitem que os sites solicitem sua localização física para melhorar sua
       experiência. Isso deve ser desativado nas configurações. Observe que ainda existem outros métodos para
       determinar sua localização aproximada.
 
   - point: Desativar Acesso à Câmera/Microfone
-    priority: Opcional
+    priority: Optional
     details: >-
       Verifique as configurações do navegador para garantir que nenhum site tenha acesso à webcam ou ao microfone.
       Também pode ser benéfico usar proteção física, como uma capa de webcam e um bloqueador de microfone.
 
   - point: Desativar Salvamento de Senhas do Navegador
-    priority: Opcional
+    priority: Optional
     details: >-
       Não permita que seu navegador armazene nomes de usuário e senhas. Estes podem ser facilmente visualizados ou
       acessados. Em vez disso, use um gerenciador de senhas.
 
   - point: Desativar Preenchimento Automático do Navegador
-    priority: Opcional
+    priority: Optional
     details: >-
       Desative o preenchimento automático para quaisquer detalhes confidenciais ou pessoais. Este recurso pode ser
       prejudicial se o seu navegador for comprometido de alguma forma. Em vez disso, considere usar o recurso de
       Notas do seu gerenciador de senhas.
 
   - point: Proteger contra Ataque de Exfiltração
-    priority: Opcional
+    priority: Optional
     details: >-
       O ataque CSS Exfiltrate é um método onde credenciais e outros detalhes confidenciais podem ser capturados
       apenas com CSS puro. Você pode ficar protegido com o plugin [CSS Exfil Protection](https://github.com/mike-gratton/css-exfil-protection).
 
   - point: Desativar ActiveX
-    priority: Opcional
+    priority: Optional
     details: >-
       ActiveX é uma API de extensão de navegador integrada ao Microsoft IE e habilitada por padrão. Não é
       comumente usado mais, mas como dá aos plugins direitos de acesso íntimos e pode ser perigoso, portanto, você
       deve desativá-lo.
 
   - point: Desativar WebRTC
-    priority: Opcional
+    priority: Optional
     details: >-
       WebRTC permite comunicação de áudio/vídeo de alta qualidade e compartilhamento de arquivos ponto a ponto
       diretamente do navegador. No entanto, pode representar um vazamento de privacidade. Para saber mais, confira
       este guia.
 
   - point: Falsificar Sig da Tela HTML5
-    priority: Opcional
+    priority: Optional
     details: >-
       A impressão digital da tela permite que os sites identifiquem e rastreiem os usuários com muita precisão.
       Você pode usar a extensão Canvas-Fingerprint-Blocker para falsificar sua impressão digital ou usar
       [Tor](https://www.torproject.org).
 
   - point: Falsificar Agente do Usuário
-    priority: Opcional
+    priority: Optional
     details: >-
       O agente do usuário informa ao site qual dispositivo, navegador e versão você está usando. Mudar o agente
       do usuário periodicamente é um pequeno passo que você pode dar para se tornar menos único.
 
   - point: Desconsiderar DNT
-    priority: Opcional
+    priority: Optional
     details: >-
       Habilitar o Não Rastrear tem um impacto muito limitado, pois muitos sites não respeitam ou seguem isso. Como
       raramente é usado, também pode adicionar à sua assinatura, tornando você mais único.
 
   - point: Impedir Rastreamento HSTS
-    priority: Opcional
+    priority: Optional
     details: >-
       O HSTS foi projetado para ajudar a proteger sites, mas preocupações com a privacidade foram levantadas, pois
       permitia que os operadores de sites plantassem supercookies. Ele pode ser desativado visitando
       chrome://net-internals/#hsts em navegadores baseados no Chromium.
 
   - point: Impedir Conexões Automáticas do Navegador
-    priority: Opcional
+    priority: Optional
     details: >-
       Mesmo quando você não está usando seu navegador, ele pode ligar para casa para relatar a atividade de uso,
       análises e diagnósticos. Você pode querer desativar alguns deles, o que pode ser feito através das
       configurações.
 
   - point: Habilitar Isolamento de Primeira Parte
-    priority: Opcional
+    priority: Optional
     details: >-
       [Isolamento de Primeira Parte](https://support.mozilla.org/en-US/kb/first-party-isolation)
       significa que todas as fontes de identificador e o estado do navegador são escopo usando o domínio da barra
       de URL, isso pode reduzir muito o rastreamento.
 
   - point: Ativar o Isolamento de Terceiros
-    priority: Opcional
+    priority: Optional
     details: >-
       [Isolamento de Terceiros](https://support.mozilla.org/en-US/kb/first-party-isolation) significa
       que todas as fontes de identificadores e o estado do navegador são definidos usando o domínio da barra de URL,
       o que pode reduzir bastante o rastreamento.
 
   - point: Remover Parâmetros de Rastreamento de URLs
-    priority: Avançado
+    priority: Advanced
     details: >-
       Os sites geralmente anexam parâmetros GET adicionais aos URLs em que você clica, para identificar informações como
       fonte/referenciador. Você pode limpar manualmente ou usar uma extensão como
@@ -531,20 +531,20 @@
       de URLs automaticamente.
 
   - point: Segurança no Primeiro Lançamento
-    priority: Avançado
+    priority: Advanced
     details: >-
       Após instalar um navegador da web, na primeira vez que você o inicia (antes de configurar suas configurações de privacidade),
       a maioria dos navegadores fará uma chamada para casa. Portanto, após instalar um navegador, você deve primeiro desativar sua conexão com a internet,
       e então configurar as opções de privacidade antes de reativar sua conectividade com a internet.
 
   - point: Usar o Navegador Tor
-    priority: Avançado
+    priority: Advanced
     details: >-
       O Projeto [Tor](https://www.torproject.org) fornece um navegador que criptografa e roteia seu tráfego por meio de vários nós, mantendo
       os usuários protegidos contra interceptação e rastreamento. As principais desvantagens são a velocidade e a experiência do usuário.
 
   - point: Desativar o JavaScript
-    priority: Avançado
+    priority: Advanced
     details: >-
       Muitos aplicativos da web modernos são baseados em JavaScript, portanto, desativá-lo diminuirá muito sua experiência de navegação.
       Mas se você realmente quiser ir com tudo, isso realmente reduzirá sua superfície de ataque.
@@ -578,33 +578,33 @@
 
   checklist:
   - point: Tenha mais de um endereço de e-mail
-    priority: Essencial
+    priority: Essential
     details: >-
       Considere usar um endereço de e-mail diferente para comunicações críticas de segurança de e-mails triviais, como
       newsletters. Essa compartimentalização pode reduzir a quantidade de danos causados por uma violação de dados
       e também facilitar a recuperação de uma conta comprometida.
 
   - point: Mantenha o endereço de e-mail privado
-    priority: Essencial
+    priority: Essential
     details: >-
       Não compartilhe seu e-mail principal publicamente, pois os endereços de e-mail são frequentemente o ponto de partida para a maioria
       dos ataques de phishing.
 
   - point: Mantenha sua conta segura
-    priority: Essencial
+    priority: Essential
     details: >-
       Use uma senha longa e exclusiva, ative a 2FA e tenha cuidado ao fazer login. Sua conta de e-mail
       fornece um ponto de entrada fácil para todas as suas outras contas online para um invasor.
 
   - point: Desative o carregamento automático de conteúdo remoto
-    priority: Essencial
+    priority: Essential
     details: >-
       As mensagens de e-mail podem conter conteúdo remoto, como imagens ou folhas de estilo, geralmente carregadas automaticamente
       do servidor. Você deve desativar isso, pois expõe seu endereço IP e informações do dispositivo, e
       é frequentemente usado para rastreamento. Para mais informações, consulte [este artigo](https://www.theverge.com/2019/7/3/20680903/email-pixel-trackers-how-to-stop-images-automatic-download).
 
   - point: Use texto simples
-    priority: Opcional
+    priority: Optional
     details: >-
       Existem dois tipos principais de e-mails na internet: texto simples e HTML. O primeiro é fortemente preferido
       para privacidade e segurança, pois as mensagens HTML geralmente incluem identificadores em links e imagens embutidas, que podem
@@ -613,20 +613,20 @@
       instruções de configuração para seu provedor de e-mail, consulte [UsePlaintext.email](https://useplaintext.email/).
 
   - point: Não conecte aplicativos de terceiros à sua conta de e-mail
-    priority: Opcional
+    priority: Optional
     details: >-
       Se você der a um aplicativo ou plug-in de terceiros acesso total à sua caixa de entrada, eles efetivamente terão acesso total e irrestrito
       a todos os seus e-mails e seus conteúdos, o que representa riscos significativos de segurança e privacidade.
 
   - point: Não compartilhe dados confidenciais por e-mail
-    priority: Opcional
+    priority: Optional
     details: >-
       Os e-mails são facilmente interceptados. Além disso, você não pode ter certeza de quão seguro é o
       ambiente do seu destinatário. Portanto, os e-mails não podem ser considerados seguros para trocar informações confidenciais,
       a menos que sejam criptografados.
 
   - point: Considere mudar para um provedor de e-mail seguro
-    priority: Opcional
+    priority: Optional
     details: >-
       Provedores de e-mail seguros e respeitáveis, como [Forward Email](https://bitwarden.com),
       [ProtonMail](https://protonmail.com), e
@@ -635,7 +635,7 @@
       caixa de correio não pode ser lida por ninguém além de você, pois todas as mensagens são criptografadas.
 
   - point: Use Smart Key
-    priority: Avançado
+    priority: Advanced
     details: >-
       O OpenPGP não oferece suporte ao Forward Secrecy, o que significa que, se sua chave privada ou a do destinatário for
       roubada, todas as mensagens anteriores criptografadas com ela serão expostas. Portanto, você deve ter muito
@@ -643,76 +643,76 @@
       mensagens, permitindo que você faça isso sem que sua chave privada saia do dispositivo USB.
 
   - point: Use Aliasing / Encaminhamento Anônimo
-    priority: Avançado
+    priority: Advanced
     details: >-
       O aliasing de e-mail permite que as mensagens sejam enviadas para [qualquercoisa]@meu-dominio.com e ainda cheguem à sua caixa de entrada principal.
       Efetivamente, permitindo que você use um endereço de e-mail diferente e exclusivo para cada serviço que você se inscreve. Isso significa
       que, se você começar a receber spam, poderá bloquear esse alias e determinar qual empresa vazou seu endereço de e-mail.
 
   - point: Subendereçamento
-    priority: Opcional
+    priority: Optional
     details: >-
       Uma alternativa ao aliasing é o subendereçamento, onde qualquer coisa após o símbolo `+` é omitida durante a entrega do e-mail.
       Isso permite que você acompanhe quem compartilhou/vazou seu endereço de e-mail, mas, ao contrário do aliasing, não protegerá
       contra a revelação do seu endereço real.
 
   - point: Use um domínio personalizado
-    priority: Avançado
+    priority: Advanced
     details: >-
       Usar um domínio personalizado significa que você não depende do endereço atribuído pelo seu provedor de e-mail. Assim, você pode
       mudar facilmente de provedor no futuro e não precisa se preocupar com a descontinuação de um serviço.
 
   - point: Sincronize com um cliente para backup
-    priority: Avançado
+    priority: Advanced
     details: >-
       Para evitar perder o acesso temporário ou permanente aos seus e-mails durante um evento não planejado (como uma interrupção ou
       bloqueio de conta), o Thunderbird pode sincronizar/fazer backup de mensagens de várias contas via IMAP e armazená-las localmente em seu
       dispositivo principal.
 
   - point: Tenha cuidado com as assinaturas de e-mail
-    priority: Avançado
+    priority: Advanced
     details: >-
       Você não sabe o quão seguro pode ser o ambiente de e-mail do destinatário da sua mensagem. Existem várias
       extensões que rastreiam automaticamente as mensagens e criam um banco de dados detalhado de informações de contato com base em
       assinaturas de e-mail.
 
   - point: Tenha cuidado com as respostas automáticas
-    priority: Avançado
+    priority: Advanced
     details: >-
       As respostas automáticas de ausência do escritório são muito úteis para informar às pessoas que haverá um atraso na resposta, mas
       muitas vezes as pessoas revelam informações demais - que podem ser usadas em engenharia social e ataques direcionados.
 
   - point: Escolha o protocolo de e-mail correto
-    priority: Avançado
+    priority: Advanced
     details: >-
       Não use protocolos desatualizados (abaixo de IMAPv4 ou POPv3), ambos têm vulnerabilidades conhecidas e segurança desatualizada.
 
   - point: Auto-hospedagem
-    priority: Avançado
+    priority: Advanced
     details: >-
       A auto-hospedagem do seu próprio servidor de e-mail não é recomendada para usuários não avançados, pois protegê-lo corretamente é
       crítico, mas requer um forte conhecimento de rede.
 
   - point: Sempre use portas TLS
-    priority: Avançado
+    priority: Advanced
     details: >-
       Existem opções SSL para POP3, IMAP e SMTP como portas TCP/IP padrão. Eles são fáceis de usar e amplamente
       suportados, portanto, devem sempre ser usados em vez de portas de e-mail de texto simples.
 
   - point: Disponibilidade de DNS
-    priority: Avançado
+    priority: Advanced
     details: >-
       Para servidores de e-mail auto-hospedados, para evitar que problemas de DNS impactem a disponibilidade - use pelo menos 2 registros MX, com
       registros MX secundários e terciários para redundância quando o registro MX primário falhar.
 
   - point: Evite ataques DDoS e de força bruta
-    priority: Avançado
+    priority: Advanced
     details: >-
       Para servidores de e-mail auto-hospedados (especificamente SMTP), limite seu número total de conexões simultâneas e a taxa máxima de
       conexão para reduzir o impacto de tentativas de ataques de bot.
 
   - point: Manter lista negra de IP
-    priority: Avançado
+    priority: Advanced
     details: >-
       Para servidores de e-mail auto-hospedados, você pode melhorar os filtros de spam e fortalecer a segurança, mantendo uma lista negra de IP
       local atualizada e listas de bloqueio em tempo real de URI de spam para filtrar hiperlinks maliciosos.
@@ -725,7 +725,7 @@
   intro: ''
   checklist:
   - point: Use apenas mensageiros totalmente criptografados de ponta a ponta
-    priority: Essencial
+    priority: Essential
     details: >-
       A criptografia de ponta a ponta é um sistema de comunicação onde as mensagens são criptografadas no seu dispositivo e
       não são descriptografadas até chegarem ao destinatário pretendido. Isso garante que qualquer ator que intercepte
@@ -733,111 +733,111 @@
       os dados são armazenados.
 
   - point: Use apenas plataformas de mensagens de código aberto
-    priority: Essencial
+    priority: Essential
     details: >-
       Se o código for de código aberto, ele pode ser examinado e auditado independentemente por qualquer pessoa qualificada para fazê-lo,
       para garantir que não haja backdoors, vulnerabilidades ou outros problemas de segurança.
 
   - point: Use uma plataforma de mensagens "confiável"
-    priority: Essencial
+    priority: Essential
     details: >-
       Ao selecionar um aplicativo de mensagens criptografadas, certifique-se de que seja totalmente de código aberto, estável, ativamente mantido
       e, idealmente, apoiado por desenvolvedores respeitáveis.
 
   - point: Verifique as configurações de segurança
-    priority: Essencial
+    priority: Essential
     details: >-
       Ative as configurações de segurança, incluindo verificação de contato, notificações de segurança e criptografia.
       Desative recursos opcionais não relacionados à segurança, como recibo de leitura, última vez online e notificação de digitação.
 
   - point: Garanta que o ambiente dos seus destinatários seja seguro
-    priority: Essencial
+    priority: Essential
     details: >-
       Sua conversa só pode ser tão segura quanto o elo mais fraco. Freqüentemente, a maneira mais fácil de se infiltrar em um
       canal de comunicação é atingir o indivíduo ou nó com a menor proteção.
 
   - point: Desative os serviços de nuvem
-    priority: Essencial
+    priority: Essential
     details: >-
       Alguns aplicativos de mensagens móveis oferecem um complemento da web ou desktop. Isso não apenas aumenta a superfície de ataque, mas
       foi associado a vários problemas críticos de segurança e, portanto, deve ser evitado, se possível.
 
   - point: Proteja os chats em grupo
-    priority: Essencial
+    priority: Essential
     details: >-
       O risco de comprometimento aumenta exponencialmente, quanto mais participantes houver em um grupo, à medida que a superfície de ataque
       aumenta. Verifique periodicamente se todos os participantes são legítimos.
 
   - point: Crie um ambiente seguro para comunicação
-    priority: Essencial
+    priority: Essential
     details: >-
       Existem vários estágios em que suas comunicações digitais podem ser monitoradas ou interceptadas. Isso inclui:
       seu dispositivo ou o de seus participantes, seu ISP, gateway nacional ou registro governamental, o provedor de mensagens,
       os servidores.
 
   - point: Concorde com um plano de comunicação
-    priority: Opcional
+    priority: Optional
     details: >-
       Em certas situações, pode valer a pena fazer um plano de comunicação. Isso deve incluir métodos primários e de backup
       para entrar em contato com segurança uns com os outros.
 
   - point: Remova os metadados da mídia
-    priority: Opcional
+    priority: Optional
     details: >-
       Metadados são "Dados sobre Dados" ou informações adicionais anexadas a um arquivo ou transação. Quando você envia uma
       foto, gravação de áudio, vídeo ou documento, você pode estar revelando mais do que pretendia.
 
   - point: Desative URLs
-    priority: Opcional
+    priority: Optional
     details: >-
       O envio de links por meio de vários serviços pode expor involuntariamente suas informações pessoais. Isso ocorre porque,
       quando uma miniatura ou visualização é gerada, isso acontece no lado do cliente.
 
   - point: Verifique seu destinatário
-    priority: Opcional
+    priority: Optional
     details: >-
       Sempre certifique-se de que está falando com o destinatário pretendido e que ele não foi comprometido. Um método
       para fazer isso é usar um aplicativo que suporte a verificação de contato.
 
   - point: Ative mensagens efêmeras
-    priority: Opcional
+    priority: Optional
     details: >-
       Mensagens autodestrutivas são um recurso que faz com que suas mensagens sejam excluídas automaticamente após um determinado período
       de tempo. Isso significa que, se seu dispositivo for perdido, roubado ou apreendido, um adversário terá acesso apenas às
       comunicações mais recentes.
 
   - point: Evite SMS
-    priority: Opcional
+    priority: Optional
     details: >-
       O SMS pode ser conveniente, mas não é seguro. É suscetível a ameaças como interceptação, troca de SIM,
       manipulação e malware.
 
   - point: Fique atento aos rastreadores
-    priority: Opcional
+    priority: Optional
     details: >-
       Tenha cuidado com aplicativos de mensagens com rastreadores, pois as estatísticas de uso detalhadas que eles coletam são frequentemente muito
       invasivas e, às vezes, podem revelar sua identidade, bem como informações pessoais que você, de outra forma, não
       pretenderia compartilhar.
 
   - point: Considere a jurisdição
-    priority: Avançado
+    priority: Advanced
     details: >-
       As jurisdições onde a organização está baseada e os dados são hospedados também devem ser levadas em consideração.
 
   - point: Use uma plataforma anônima
-    priority: Avançado
+    priority: Advanced
     details: >-
       Se você acredita que pode ser alvo, deve optar por uma plataforma de mensagens anônima que não exija
       um número de telefone ou qualquer outra informação de identificação pessoal para se inscrever ou usar.
 
   - point: Garanta que o Forward Secrecy seja suportado
-    priority: Avançado
+    priority: Advanced
     details: >-
       Opte por uma plataforma que implemente o forward secrecy. É aqui que seu aplicativo gera uma nova chave de criptografia
       para cada mensagem.
 
   - point: Considere uma plataforma descentralizada
-    priority: Avançado
+    priority: Advanced
     details: >-
       Se todos os dados fluem por meio de um provedor central, você deve confiar neles com seus dados e metadados. Você não pode
       verificar se o sistema em execução é autêntico sem backdoors.
@@ -1150,135 +1150,135 @@
     E isso não inclui todo o tráfego da internet que as agências de inteligência ao redor do mundo têm acesso irrestrito.
   checklist:
   - point: Criptografe seu Dispositivo
-    priority: Essencial
+    priority: Essential
     details: >-
       Para manter seus dados seguros contra acesso físico, use criptografia de arquivos. Isso significa que, se seu
       dispositivo for perdido ou roubado, ninguém terá acesso aos seus dados.
 
   - point: Desative os recursos de conectividade que não estão sendo usados
-    priority: Essencial
+    priority: Essential
     details: >-
       Quando você não estiver usando WiFi, Bluetooth, NFC etc., desative esses recursos. Existem várias ameaças comuns
       que utilizam esses recursos.
 
   - point: Mantenha a contagem de aplicativos no mínimo
-    priority: Essencial
+    priority: Essential
     details: >-
       Desinstale os aplicativos que você não precisa ou não usa regularmente. Como os aplicativos geralmente são executados em segundo plano, diminuindo a velocidade do seu
       dispositivo, mas também coletando dados.
 
   - point: Permissões de Aplicativos
-    priority: Essencial
+    priority: Essential
     details: >-
       Não conceda aos aplicativos permissões de que eles não precisam. Para Android, [Bouncer](https://bitwarden.com) é um aplicativo que permite conceder
       permissões temporárias/únicas.
 
   - point: Instale apenas aplicativos de fontes oficiais
-    priority: Essencial
+    priority: Essential
     details: >-
       Os aplicativos na Apple App Store e no Google Play Store são verificados e assinados criptograficamente, tornando-os
       menos propensos a serem maliciosos.
 
   - point: Tenha cuidado com as ameaças de carregamento de telefone
-    priority: Opcional
+    priority: Optional
     details: >-
       Juice Jacking é quando hackers usam estações de carregamento públicas para instalar malware em seu smartphone ou tablet
       por meio de uma porta USB comprometida.
 
   - point: Configure um PIN de operadora móvel
-    priority: Essencial
+    priority: Essential
     details: >-
       O sequestro de SIM é quando um hacker consegue transferir seu número de celular para o SIM dele. A maneira mais fácil
       de se proteger contra isso é configurar um PIN por meio de sua operadora móvel.
 
   - point: Desative as listas de identificação de chamadas
-    priority: Opcional
+    priority: Optional
     details: >-
       Para manter seus dados privados, você pode remover seu número de aplicativos de identificação de chamadas como TrueCaller, CallApp, SyncMe,
       e Hiya.
 
   - point: Use mapas offline
-    priority: Opcional
+    priority: Optional
     details: >-
       Considere usar um aplicativo de mapas offline, como OsmAnd ou Organic Maps, para reduzir vazamentos de dados de aplicativos de mapas.
 
   - point: Desative os anúncios personalizados
-    priority: Opcional
+    priority: Optional
     details: >-
       Você pode reduzir ligeiramente a quantidade de dados coletados desativando a exibição de anúncios personalizados.
 
   - point: Apague após muitas tentativas de login
-    priority: Opcional
+    priority: Optional
     details: >-
       Para se proteger contra um invasor que força brutalmente seu PIN, configure seu dispositivo para apagar após muitas tentativas de login
       falhadas.
 
   - point: Monitore os rastreadores
-    priority: Opcional
+    priority: Optional
     details: >-
       [εxodus](https://haveibeenpwned.com) é um ótimo serviço que
       permite pesquisar qualquer aplicativo e ver quais rastreadores estão incorporados nele.
 
   - point: Use um firewall móvel
-    priority: Opcional
+    priority: Optional
     details: >-
       Para evitar que os aplicativos vazem dados confidenciais à privacidade, você pode instalar um aplicativo de firewall.
 
   - point: Reduza a atividade em segundo plano
-    priority: Opcional
+    priority: Optional
     details: >-
       Para Android, o SuperFreeze torna possível congelar totalmente todas as atividades em segundo plano por aplicativo.
 
   - point: Aplicativos móveis em sandbox
-    priority: Opcional
+    priority: Optional
     details: >-
       Impeça que aplicativos famintos por permissão acessem seus dados privados com [Island](https://bitwarden.com), um ambiente sandbox.
 
   - point: Tráfego Tor
-    priority: Avançado
+    priority: Advanced
     details: >-
       [Orbot](https://orbot.app) fornece
       uma conexão Tor em todo o sistema, o que ajudará a protegê-lo contra vigilância e ameaças de WiFi público.
 
   - point: Evite teclados virtuais personalizados
-    priority: Opcional
+    priority: Optional
     details: >-
       Recomenda-se usar o teclado padrão do seu dispositivo. Se você optar por usar um aplicativo de teclado de terceiros,
       certifique-se de que seja respeitável.
 
   - point: Reinicie o dispositivo regularmente
-    priority: Opcional
+    priority: Optional
     details: >-
       Reiniciar o telefone pelo menos uma vez por semana limpará o estado do aplicativo armazenado em cache na memória e poderá ser executado de forma mais suave
       após uma reinicialização.
 
   - point: Evite SMS
-    priority: Opcional
+    priority: Optional
     details: >-
       O SMS não deve ser usado para receber códigos 2FA ou para comunicação, em vez disso, use um aplicativo de mensagens criptografadas,
       como [Signal](https://signal.org).
 
   - point: Mantenha seu número privado
-    priority: Opcional
+    priority: Optional
     details: >-
       [MySudo](https://mysudo.com) permite
       que você crie e use números de telefone virtuais para diferentes pessoas ou grupos. Isso é ótimo para
       compartimentalização.
 
   - point: Cuidado com o Stalkerware
-    priority: Opcional
+    priority: Optional
     details: >-
       Stalkerware é um malware instalado diretamente no seu dispositivo por alguém que você conhece.
       A melhor maneira de se livrar dele é por meio de uma redefinição de fábrica.
 
   - point: Prefira o navegador ao aplicativo dedicado
-    priority: Opcional
+    priority: Optional
     details: >-
       Sempre que possível, considere usar um navegador seguro para acessar sites,
       em vez de instalar aplicativos dedicados.
 
   - point: Considere executar uma ROM personalizada (Android)
-    priority: Avançado
+    priority: Advanced
     details: >-
       Se você está preocupado com o fato de o fabricante do seu dispositivo coletar muitas
       informações pessoais, considere uma ROM personalizada focada na privacidade.
@@ -1295,155 +1295,155 @@
     comprometido, pode ter efeitos prejudiciais.
   checklist:
   - point: Mantenha seu sistema atualizado
-    priority: Essencial
+    priority: Essential
     details: >-
       As atualizações do sistema contêm correções/patches para problemas de segurança, melhoram o desempenho e, às vezes, adicionam novos
       recursos. Instale novas atualizações quando solicitado.
 
   - point: Criptografe seu Dispositivo
-    priority: Essencial
+    priority: Essential
     details: >-
       Use o BitLocker para Windows, FileVault no MacOS ou LUKS no Linux para habilitar a criptografia de disco completo. Isso
       impede o acesso não autorizado se seu computador for perdido ou roubado.
 
   - point: Faça backup de dados importantes
-    priority: Essencial
+    priority: Essential
     details: >-
       Manter backups criptografados evita perdas devido a ransomware, roubo ou danos. Considere usar
       [Cryptomator](https://cryptomator.org)
       para arquivos na nuvem ou [VeraCrypt](https://www.veracrypt.fr) para unidades USB.
 
   - point: Tenha cuidado ao conectar dispositivos USB ao seu computador
-    priority: Essencial
+    priority: Essential
     details: >-
       Dispositivos USB podem representar sérias ameaças. Considere fazer um higienizador USB com CIRCLean para verificar com segurança os dispositivos USB.
 
   - point: Ative o bloqueio de tela quando estiver ocioso
-    priority: Essencial
+    priority: Essential
     details: >-
       Bloqueie seu computador quando estiver ausente e configure-o para exigir uma senha ao retomar do protetor de tela ou suspensão para
       impedir o acesso não autorizado.
 
   - point: Desative a Cortana ou Siri
-    priority: Essencial
+    priority: Essential
     details: >-
       Assistentes controlados por voz podem ter implicações de privacidade devido aos dados enviados de volta para processamento. Desative
       ou limite seus recursos de escuta.
 
   - point: Revise seus aplicativos instalados
-    priority: Essencial
+    priority: Essential
     details: >-
       Mantenha os aplicativos instalados no mínimo para reduzir a exposição a vulnerabilidades e limpe regularmente os
       caches de aplicativos.
 
   - point: Gerenciar permissões
-    priority: Essencial
+    priority: Essential
     details: >-
       Controle quais aplicativos têm acesso à sua localização, câmera, microfone, contatos e outras informações
       confidenciais.
 
   - point: Não permita que dados de uso sejam enviados para a nuvem
-    priority: Essencial
+    priority: Essential
     details: >-
       Limite a quantidade de informações de uso ou feedback enviados para a nuvem para proteger sua privacidade.
 
   - point: Evite o desbloqueio rápido
-    priority: Essencial
+    priority: Essential
     details: >-
       Use uma senha forte em vez de biometria ou PINs curtos para desbloquear seu computador para aumentar a
       segurança.
 
   - point: Desligue o computador, em vez de Standby
-    priority: Essencial
+    priority: Essential
     details: >-
       Desligue seu dispositivo quando não estiver em uso, especialmente se seu disco estiver criptografado, para manter os dados seguros.
 
   - point: Não vincule seu PC com sua conta Microsoft ou Apple
-    priority: Opcional
+    priority: Optional
     details: >-
       Use apenas uma conta local para evitar a sincronização e exposição de dados. Evite usar serviços de sincronização que comprometam
       a privacidade.
 
   - point: Verifique quais serviços de compartilhamento estão habilitados
-    priority: Opcional
+    priority: Optional
     details: >-
       Desative os recursos de compartilhamento de rede que você não está usando para fechar gateways para ameaças comuns.
 
   - point: Não use conta Root/Admin para tarefas não administrativas
-    priority: Opcional
+    priority: Optional
     details: >-
       Use uma conta de usuário não privilegiada para tarefas diárias e eleve as permissões apenas para alterações administrativas
       para mitigar vulnerabilidades.
 
   - point: Bloquear Webcam + Microfone
-    priority: Opcional
+    priority: Optional
     details: >-
       Cubra sua webcam quando não estiver em uso e considere bloquear a gravação de áudio não autorizada para proteger a privacidade.
 
   - point: Use um filtro de privacidade
-    priority: Opcional
+    priority: Optional
     details: >-
       Use um filtro de privacidade de tela em espaços públicos para evitar o surf de ombro e proteger informações
       confidenciais.
 
   - point: Dispositivo fisicamente seguro
-    priority: Opcional
+    priority: Optional
     details: >-
       Use uma trava Kensington para proteger seu laptop em espaços públicos e considere travas de porta para evitar
       acesso físico não autorizado.
 
   - point: Não carregue dispositivos do seu PC
-    priority: Opcional
+    priority: Optional
     details: >-
       Use um power bank ou carregador de parede CA em vez do seu PC para evitar riscos de segurança associados a conexões
       USB.
 
   - point: Randomize seu endereço de hardware no Wi-Fi
-    priority: Opcional
+    priority: Optional
     details: >-
       Modifique ou randomize seu endereço MAC para proteger contra rastreamento em diferentes redes WiFi.
 
   - point: Use um firewall
-    priority: Opcional
+    priority: Optional
     details: >-
       Instale um aplicativo de firewall para monitorar e bloquear o acesso indesejado à Internet por determinados aplicativos, protegendo
       contra ataques de acesso remoto e violações de privacidade.
 
   - point: Proteja-se contra keyloggers de software
-    priority: Opcional
+    priority: Optional
     details: >-
       Use ferramentas de criptografia de pressionamento de tecla para proteger contra keyloggers de software que registram suas teclas.
 
   - point: Verifique a conexão do teclado
-    priority: Opcional
+    priority: Optional
     details: >-
       Esteja atento a keyloggers de hardware ao usar computadores públicos ou desconhecidos, verificando as conexões do teclado.
 
   - point: Evite ataques de injeção de pressionamento de tecla
-    priority: Opcional
+    priority: Optional
     details: >-
       Bloqueie seu PC quando estiver ausente e considere usar USBGuard ou ferramentas semelhantes para proteger contra ataques de injeção de pressionamento de tecla.
 
   - point: Não use antivírus "gratuito" comercial
-    priority: Opcional
+    priority: Optional
     details: >-
       Confie em ferramentas de segurança integradas e evite aplicativos antivírus gratuitos devido ao seu potencial para
       invasão de privacidade e coleta de dados.
 
   - point: Verifique periodicamente se há rootkits
-    priority: Avançado
+    priority: Advanced
     details: >-
       Verifique regularmente se há rootkits para detectar e mitigar ameaças de controle total do sistema usando ferramentas como
       [chkrootkit](https://www.chkrootkit.org).
 
   - point: Senha de inicialização do BIOS
-    priority: Avançado
+    priority: Advanced
     details: >-
       Habilite uma senha do BIOS ou UEFI para adicionar uma camada de segurança adicional durante a inicialização, embora esteja ciente de
       suas limitações.
 
   - point: Use um sistema operacional focado em segurança
-    priority: Avançado
+    priority: Advanced
     details: >-
       Considere mudar para Linux ou uma distro focada em segurança como QubeOS ou
       [Tails](https://tails.boum.org)
@@ -1451,48 +1451,48 @@
       segurança.
 
   - point: Use VMs
-    priority: Avançado
+    priority: Advanced
     details: >-
       Use máquinas virtuais para atividades arriscadas ou teste de software suspeito para isolar ameaças potenciais
       do seu sistema primário.
 
   - point: Compartimentalize
-    priority: Avançado
+    priority: Advanced
     details: >-
       Isole diferentes programas e fontes de dados uns dos outros o máximo possível para limitar a extensão de
       violações potenciais.
 
   - point: Desative recursos indesejados (Windows)
-    priority: Avançado
+    priority: Advanced
     details: >-
       Desative "recursos" e serviços desnecessários do Windows que são executados em segundo plano para reduzir a coleta de dados
       e uso de recursos.
 
   - point: Inicialização Segura
-    priority: Avançado
+    priority: Advanced
     details: >-
       Certifique-se de que a Inicialização Segura esteja habilitada para impedir que malware substitua seu carregador de inicialização e outros
       softwares críticos.
 
   - point: Acesso SSH seguro
-    priority: Avançado
+    priority: Advanced
     details: >-
       Tome medidas para proteger o acesso SSH contra ataques, alterando a porta padrão, usando chaves SSH e
       configurando firewalls.
 
   - point: Feche as portas abertas não utilizadas
-    priority: Avançado
+    priority: Advanced
     details: >-
       Desative os serviços que estão escutando em portas externas que não são necessárias para proteger contra exploits remotos e
       melhorar a segurança.
 
   - point: Implementar controle de acesso obrigatório
-    priority: Avançado
+    priority: Advanced
     details: >-
       Restrinja o acesso privilegiado para limitar os danos que podem ser causados se um sistema for comprometido.
 
   - point: Use tokens Canary
-    priority: Avançado
+    priority: Advanced
     details: >-
       Implante tokens canary para detectar acesso não autorizado aos seus arquivos ou e-mails mais rapidamente e coletar
       informações sobre o intruso.
@@ -1527,69 +1527,69 @@
     dispositivos domésticos conectados à internet.
   checklist:
   - point: Renomeie os dispositivos para não especificar a marca/modelo
-    priority: Essencial
+    priority: Essential
     details: >-
       Altere os nomes padrão dos dispositivos para algo genérico para evitar ataques direcionados, obscurecendo as informações da marca ou modelo.
 
   - point: Desative o microfone e a câmera quando não estiver em uso
-    priority: Essencial
+    priority: Essential
     details: >-
       Use interruptores de hardware para desligar microfones e câmeras em dispositivos inteligentes para proteger contra gravações acidentais ou acesso direcionado.
 
   - point: Entenda quais dados são coletados, armazenados e transmitidos
-    priority: Essencial
+    priority: Essential
     details: >-
       Pesquise e garanta o conforto com as práticas de tratamento de dados de dispositivos domésticos inteligentes antes da compra, evitando dispositivos que compartilham dados com terceiros.
 
   - point: Defina as configurações de privacidade e desative o compartilhamento de dados com terceiros
-    priority: Essencial
+    priority: Essential
     details: >-
       Ajuste as configurações do aplicativo para os controles de privacidade mais rígidos e desative o compartilhamento de dados com terceiros sempre que possível.
 
   - point: Não vincule seus dispositivos domésticos inteligentes à sua identidade real
-    priority: Essencial
+    priority: Essential
     details: >-
       Use nomes de usuário e senhas anônimos, evitando o cadastro/login por meio de mídias sociais ou outros serviços de terceiros para manter a privacidade.
 
   - point: Mantenha o firmware atualizado
-    priority: Essencial
+    priority: Essential
     details: >-
       Atualize regularmente o firmware do dispositivo inteligente para aplicar patches de segurança e melhorias.
 
   - point: Proteja sua rede
-    priority: Essencial
+    priority: Essential
     details: >-
       Proteja seu WiFi doméstico e sua rede para evitar acesso não autorizado a dispositivos inteligentes.
 
   - point: Tenha cuidado com os wearables
-    priority: Opcional
+    priority: Optional
     details: >-
       Considere os extensos recursos de coleta de dados de dispositivos vestíveis e suas implicações para a privacidade.
 
   - point: Não conecte a infraestrutura crítica da sua casa à Internet
-    priority: Opcional
+    priority: Optional
     details: >-
       Avalie os riscos de termostatos, alarmes e detectores conectados à Internet devido ao potencial acesso remoto por hackers.
 
   - point: Mitigue os riscos do Alexa/Google Home
-    priority: Opcional
+    priority: Optional
     details: >-
       Considere alternativas focadas na privacidade, como
       [Mycroft](https://mycroft.ai) ou use
       Project Alias para evitar a escuta ociosa por assistentes ativados por voz.
 
   - point: Monitore sua rede doméstica de perto
-    priority: Opcional
+    priority: Optional
     details: >-
       Use ferramentas como FingBox ou recursos de roteador para monitorar atividades incomuns na rede.
 
   - point: Negue o acesso à Internet sempre que possível
-    priority: Avançado
+    priority: Advanced
     details: >-
       Use firewalls para bloquear o acesso à Internet para dispositivos que não precisam dele, limitando a operação ao uso da rede local.
 
   - point: Avalie os riscos
-    priority: Avançado
+    priority: Advanced
     details: >-
       Considere as implicações de privacidade para todos os membros da família e ajuste as configurações do dispositivo para segurança e privacidade, como desativar dispositivos em determinados horários.
   color: red
@@ -1614,34 +1614,34 @@
     para segurança, mas terríveis para a privacidade dos dados.
   checklist:
   - point: Inscreva-se para alertas de fraude e monitoramento de crédito
-    priority: Essencial
+    priority: Essential
     details: >-
       Ative alertas de fraude e monitoramento de crédito por meio da Experian, TransUnion ou Equifax para ser alertado sobre atividades suspeitas.
 
   - point: Aplique um congelamento de crédito
-    priority: Essencial
+    priority: Essential
     details: >-
       Evite consultas de crédito não autorizadas congelando seu crédito por meio da Experian, TransUnion e Equifax.
 
   - point: Use cartões virtuais
-    priority: Opcional
+    priority: Optional
     details: >-
       Utilize números de cartão virtual para transações online para proteger seus dados bancários reais. Serviços como [Privacy.com](https://privacy.com) e [MySudo](https://mysudo.com) oferecem esses recursos.
 
   - point: Use dinheiro para transações locais
-    priority: Opcional
+    priority: Optional
     details: >-
       Pague com [Dinheiro](https://bitwarden.com) para compras locais e diárias para evitar o rastreamento financeiro por instituições.
 
   - point: Use criptomoeda para transações online
-    priority: Opcional
+    priority: Optional
     details: >-
       Opte por criptomoedas focadas na privacidade, como
       [Monero](https://www.getmonero.org) para
       transações online para manter o anonimato. Use criptomoedas com sabedoria para garantir a privacidade.
 
   - point: Armazene criptomoedas com segurança
-    priority: Avançado
+    priority: Advanced
     details: >-
       Armazene criptomoedas com segurança usando geração de carteira offline, carteiras de hardware
       como [Trezor](https://trezor.io) ou
@@ -1650,24 +1650,24 @@
       [CryptoSteel](https://cryptosteel.com).
 
   - point: Compre criptomoedas anonimamente
-    priority: Avançado
+    priority: Advanced
     details: >-
       Compre criptomoedas sem vincular à sua identidade por meio de serviços
       como [LocalBitcoins](https://localbitcoins.com),
       [Bisq](https://bisq.network) ou caixas eletrônicos de Bitcoin.
 
   - point: Misture/Combine moedas
-    priority: Avançado
+    priority: Advanced
     details: >-
       Use um mixer de bitcoin ou CoinJoin antes de converter Bitcoin em moeda para obscurecer os rastros da transação.
 
   - point: Use detalhes de alias para compras online
-    priority: Avançado
+    priority: Advanced
     details: >-
       Para compras online, considere usar detalhes de alias, encaminhar endereços de e-mail, números VOIP e métodos de entrega seguros para proteger sua identidade.
 
   - point: Use um endereço de entrega alternativo
-    priority: Avançado
+    priority: Advanced
     details: >-
       Opte por entregas em endereços não pessoais, como caixas postais, endereços de encaminhamento ou locais de coleta locais para evitar vincular compras diretamente a você.
   color: purple
